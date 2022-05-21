@@ -4,6 +4,7 @@ import { ISearchTextFieldProps } from "../SearchTextField.interface";
 export const useSearchTextField = ({
   value,
   items,
+  itemStyles,
   onClickItem,
 }: ISearchTextFieldProps) => {
   const [showFlag, setShowFlag] = useState<boolean>(false);
@@ -23,10 +24,11 @@ export const useSearchTextField = ({
       .filter((item) => item.includes(value.trim()))
       .map((item, index) => (
         <div
+          key={index}
           onClick={() => {
             onClickItem(item);
           }}
-          key={index}
+          style={itemStyles}
         >
           {item}
         </div>

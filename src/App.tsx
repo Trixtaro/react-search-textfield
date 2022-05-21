@@ -8,11 +8,13 @@ function App() {
   return (
     <div className="App">
       <SearchTextField
-        items={["pepito", "bolita"]}
+        items={["Item 1", "Item 2", "Item 3"]}
         onChange={(e) => setValue(e.target.value)}
         onClickItem={(selectedItem: string) => setValue(selectedItem)}
         name={"input"}
         value={value}
+        inputStyles={{ width: "200px" }}
+        itemStyles={{ textAlign: "left" }}
       />
     </div>
   );
