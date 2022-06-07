@@ -1,14 +1,14 @@
 {
   "name": "search-textfield",
   "description": "React component that works like a search text field, when user is typing, options will be displayed. Vanila React, no extra dependencies.",
-  "author": "Trixtaro",
+  "author": "trixtaro",
   "keywords": [
     "react",
     "compnents",
     "textfield",
     "search"
   ],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "main": "dist/index.ts",
   "files": [
