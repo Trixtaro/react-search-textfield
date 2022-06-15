@@ -4,15 +4,16 @@
   "author": "trixtaro",
   "keywords": [
     "react",
-    "compnents",
+    "components",
     "textfield",
     "search"
   ],
-  "version": "0.1.2",
+  "version": "0.1.8",
   "private": false,
-  "main": "dist/index.ts",
+  "main": "dist/index.tsx",
   "files": [
-    "dist",
+    "dist/*",
+    "dist/**/*",
     "README.md"
   ],
   "repository": {
